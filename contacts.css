@@ -1,0 +1,237 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #222;
+    --Bluechalk:#E2D4E7;
+    --Windsor: #59267C;
+   --Deeplilac: #8F5DB7;
+   --Morningglory: #A5CFD5;
+   --Cornfield:#F7EFC0;
+   --Darkgrey:#333;
+   --Darksilver:#555;
+   --height:1136px;
+   --width:640px;
+}
+.button1 {
+    width: 0.3em;
+    height: 8em;
+    position: relative;
+    top: 30em;
+    left: 4em;
+    border-radius: 30%;
+    background-color: var(--Darksilver);
+}
+.button2{
+    width: 0.3em;
+    height: 5em;
+    position: relative;
+    top: 35em;
+    left: 4em;
+    border-radius: 30%;
+    background-color: var(--Darksilver);
+}
+.mockPhone {
+    background:var(--Darksilver);
+    border: 50px solid var(--Darksilver);
+    border-style: solid none solid none;
+    transform: scale(0.8);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10%;
+    position: relative;
+    box-shadow: 10px 10px 15px 5px black;   
+}
+.mockPhone .speaker {
+    width: 7vw;
+    height: 1vh;
+    border: 1px solid var(--Darkgrey);
+    border-radius: 20%;
+    background-color: var(--Darkgrey);
+    position: absolute;
+    top: -3vh;
+    left: 17vw;
+}
+.mockPhone .screen {
+    width: var(--width);
+    height: var(--height);
+}
+#viber-app {
+    background-color: var(--Cornfield);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 5%;    
+}
+#viber-app header {
+    height: 7%;
+    width: 100%;
+    position: absolute;    
+}
+#viber-app section {
+    height: 86%;
+    width: 100%;
+    position:relative;
+    top:7%;
+}
+#viber-app footer {
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#viber-app .contacts {
+    height: 100%;
+}
+#viber-app .contacts li {
+    height: calc(100%/8);
+    border-top: 1px solid var(--Darksilver);
+    border-bottom: 1px solid var(--Darksilver);
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--Darksilver);
+}
+.contacts {
+position: relative;
+}
+.contacts .contact {
+    display: inline-block;
+}
+.contacts .contact img {
+    width: 15%;
+    height: 15%;
+    float: left;
+    padding: 10px 10px 20px 10px;
+}
+.contacts .contact .movie {
+    padding: 13px;
+    border: 1px solid var(--Deeplilac);
+    border-radius: 50%;
+    background-color: var(--Deeplilac);
+    margin: 15px 10px;
+}
+.contacts .contact .food {
+    height: 5em;
+    padding: 15px;
+    border-radius: 50%;
+    padding: 20px 10px 20px 10px;
+}
+.contacts .contact h2 {
+   padding: 20px 0 10px 0;
+    text-align: left;
+    font-weight: 700;
+    font-size:20px;
+    color: var(--Darkgrey);
+}
+.contacts .contact p {
+    text-align: left;
+    font-size: 15px;
+    padding: 0 0 0 10px;   
+}
+.contacts .contact .text{
+  position: relative;
+  right: -2em;
+  top: -3.1em;
+  font-size: 15px;
+}
+.contacts .data{
+    padding-right:15px;
+    display:inline-block;
+}
+.contacts .data svg {
+    fill: var(--Darksilver); 
+}
+.call {
+    fill: var(--Darksilver);
+    position: relative;
+    right: -0.3em;
+}
+.face {
+    fill: var(--Darksilver);
+    position: relative;
+    right: -0.3em;
+    top: -1.7em;
+}
+.photo {
+    fill: var(--Darksilver);
+    position: relative;
+    right: -0.3em;
+    top: -0.3em;
+}
+.icon {
+    fill: var(--Darksilver); 
+    position: relative;
+    right: -13.5em;
+    top: -2em;
+}
+.contacts .data .status {
+    position: relative;
+    top: -0.7em;
+    right: -0.5em;
+}
+.contacts .data .status4 {
+    position: relative;
+    top: -6.3em;
+    right: -35em;
+}
+.contacts .data .time {
+    position: relative; 
+    top: -2em; 
+    right: -2em;    
+}
+.contacts .data .time2 {
+    position: relative;
+    top: -1em;
+    right:-11em ;
+}
+.contacts .data .time4 {
+    position: relative;
+    top: -7.5em;
+    right:-36.5em ;
+}
+.contacts .data .count {
+    position: relative;
+    top: -1.5em;
+    right: -2.5em;
+    border: 1px solid var(--Windsor);
+    border-radius: 50%;
+    background: var(--Windsor);
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+   text-align: center;
+   color:var(--Cornfield) ;
+   font-size: 15px;
+}
+.contacts .data .count2 {
+    position: relative;
+    top: -0.5em;
+    right: -12em;
+    border: 1px solid var(--Windsor);
+    border-radius: 50%;
+    background: var(--Windsor);
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+   text-align: center;
+   color:var(--Cornfield) ;
+   font-size: 15px;  
+}
+.contacts .data .count4 {
+    position: relative;
+    top: -7.4em;
+    right: -39em;
+    border: 1px solid var(--Darksilver);
+    border-radius: 50%;
+    background: var(--Darksilver);
+    width: 30px;
+    height: 25px;
+    padding-top: 7px;
+   text-align: center;
+   color:var(--Cornfield) ;
+   font-size: 15px;  
+}
+
+
+
+
